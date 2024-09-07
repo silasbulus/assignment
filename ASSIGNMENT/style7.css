@@ -1,0 +1,40 @@
+.header1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border: 10px solid rgb(169, 184, 147);
+}
+
+.header2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background-color: white;
+  border: 10px solid rgb(159, 178, 129);
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-left: 40px;
+}

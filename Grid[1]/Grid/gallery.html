@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ .image-container {
+    position: relative;
+   height: 200px;
+   width: 400px;
+   border-radius: 20px;
+   overflow: hidden;
+   background-color:rgba(0, 0, 0, 0.5); ;
+}
+
+.image-container img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-container::after {
+    content: "Beautiful Forest"; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Ensure the background covers the entire image */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background over the entire image */
+    padding: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end; /* Aligns text at the bottom */
+    justify-content: flex-start/* Make sure the text background spans the full width */
+}
+.c{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+    </style>
+</head>
+<body>
+   <div class="c">
+    <div class="image-container">
+        <img src="https://www.w3schools.com/css/img_forest.jpg" alt="Forest">
+    </div>
+    <div class="image-container">
+        <img src="https://www.w3schools.com/css/img_forest.jpg" alt="Forest">
+    </div>
+    <div class="image-container">
+        <img src="https://www.w3schools.com/css/img_forest.jpg" alt="Forest">
+    </div>
+    <div class="image-container">
+        <img src="https://www.w3schools.com/css/img_forest.jpg" alt="Forest">
+    </div>
+    <div class="image-container">
+        <img src="https://www.w3schools.com/css/img_forest.jpg" alt="Forest">
+    </div>
+    <div class="image-container">
+        <img src="https://www.w3schools.com/css/img_forest.jpg" alt="Forest">
+    </div>
+   </div>
+    
+</body>
+</html>

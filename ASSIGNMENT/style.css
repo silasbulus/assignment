@@ -1,0 +1,18 @@
+.headerholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  text-decoration: none;
+  background-color: white;
+  border: 10px solid rgb(108, 172, 200);
+}
+
+.icoholder {
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+a {
+  text-decoration: none;
+}

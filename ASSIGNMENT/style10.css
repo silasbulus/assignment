@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  background-color: white;
+  border: 10px solid rgb(245, 241, 241);
+}
+
+.icon {
+  padding-left: 50px;
+}
+
+.icon5 {
+  padding-right: 50px;
+}

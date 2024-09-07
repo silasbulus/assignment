@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background-color: white;
+  border: 10px solid rgb(243, 217, 217);
+}
+a {
+  text-decoration: none;
+}
+
+.first {
+  display: flex;
+}
+
+.first input {
+  background-color: rgb(109, 206, 174);
+  height: 20px;
+  width: 80px;
+}
+
+.second {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
